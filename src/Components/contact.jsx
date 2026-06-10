@@ -1,7 +1,7 @@
 function Contact() {
 
   const downloadPortfolio = () => {
-    window.print(); // simple download as PDF
+    window.print(); 
   };
 
   return (
@@ -9,7 +9,7 @@ function Contact() {
       <h2>Contact Me</h2>
 
       <p>Email: yourmail@gmail.com</p>
-      <p>Phone: +91 XXXXX XXXXX</p>
+      <p>Phone: +91 98765 43210</p>
 
       <button className="btn" onClick={downloadPortfolio}>
         Download Portfolio

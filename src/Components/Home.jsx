@@ -3,27 +3,32 @@ import profile from "../assets/profile.jpg";
 function Home() {
   return (
     <section id="home" className="home">
+      <div className="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Siluveru Siri Chandana</h1>
 
-  
-      <div className="home-left">
-        <h1>Hi, I'm Siri chandana</h1>
-        <h2>B Tech student</h2>
+        <h2>Frontend Developer & BTech Student</h2>
 
         <p>
-          I am passionate about building web applications using
-          React, Node.js, Java, Python, and AI-based solutions.
+          Passionate about building responsive web applications using
+          React, JavaScript, Java, Python and modern web technologies.
+          I enjoy solving real-world problems through software development.
         </p>
 
-        <a href="#projects" className="btn">
-          View My Projects
-        </a>
+        <div className="home-buttons">
+          <a href="#projects" className="btn">
+            View Projects
+          </a>
+
+          <a href="#contact" className="btn btn-outline">
+            Contact Me
+          </a>
+        </div>
       </div>
 
- 
-      <div className="home-right">
+      <div className="home-image">
         <img src={profile} alt="Profile" />
       </div>
-
     </section>
   );
 }
