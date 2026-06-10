@@ -1,4 +1,4 @@
-function Contact() {
+function contact() {
 
   const downloadPortfolio = () => {
     window.print(); 
@@ -18,4 +18,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default contact;
