@@ -1,7 +1,7 @@
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Contact from "./Components/contact";
 
 import "./App.css";
 
